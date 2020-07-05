@@ -1,14 +1,17 @@
 Metadata-Version: 2.1
 Name: ltapy2
-Version: 1.0.0
+Version: 1.0.1
 Summary: Asynchronous python library to access LTA's Datamall, primarily designed for Home Asssitant.
 Home-page: https://github.com/pypa/sampleproject
 Author: Codestian
 Author-email: codestia@gmail.com
 License: UNKNOWN
-Description: This is a simple example package. You can use
-        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-        to write your content.
+Description: # Ltapy
+        ## Asynchronous python library to interact with LTA's Datamall API.
+        This library is primarily designed for the **Land Transport Authority integration** in Home Assistant.
+        
+        ### Installation
+        `$ pip install ltapy`
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
