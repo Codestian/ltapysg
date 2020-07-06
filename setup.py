@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ltapysg", 
-    version="1.0.0",
+    version="0.1.0",
     author="Muhd Hakim",
     author_email="codestia@gmail.com",
     description="Asynchronous python library to access LTA's Datamall, primarily designed for Home Asssitant.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
-    packages=setuptools.find_packages(include=['ltapy']),
+    url="https://github.com/Codestian/ltapysg",
+    packages=setuptools.find_packages(include=['ltapysg']),
     install_requires=['aiohttp'],
     classifiers=[
         "Programming Language :: Python :: 3",

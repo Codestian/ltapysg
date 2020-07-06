@@ -1,0 +1,7 @@
+README.md
+setup.py
+ltapysg.egg-info/PKG-INFO
+ltapysg.egg-info/SOURCES.txt
+ltapysg.egg-info/dependency_links.txt
+ltapysg.egg-info/requires.txt
+ltapysg.egg-info/top_level.txt
