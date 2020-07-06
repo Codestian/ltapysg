@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ltapy", 
+    name="ltapysg", 
     version="1.0.0",
     author="Codestian",
     author_email="codestia@gmail.com",
