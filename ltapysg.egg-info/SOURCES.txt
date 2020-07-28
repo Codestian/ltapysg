@@ -1,5 +1,10 @@
 README.md
 setup.py
+ltapysg/__init__.py
+ltapysg/api.py
+ltapysg/bus.py
+ltapysg/taxi.py
+ltapysg/traffic.py
 ltapysg.egg-info/PKG-INFO
 ltapysg.egg-info/SOURCES.txt
 ltapysg.egg-info/dependency_links.txt
