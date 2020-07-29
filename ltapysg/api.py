@@ -13,6 +13,6 @@ async def call(api_key, url):
                 if response.status == 200:
                     return await response.json()
                 else:
-                    return "Error", "Unable to complete request"
+                    raise Exception('Received status code ' + str(response.status))
         except ClientConnectorError as err:
-            return "Error", str(err)
+            raise Exception(str(err))
