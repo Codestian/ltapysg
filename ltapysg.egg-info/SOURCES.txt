@@ -3,6 +3,7 @@ setup.py
 ltapysg/__init__.py
 ltapysg/api.py
 ltapysg/bus.py
+ltapysg/exceptions.py
 ltapysg/taxi.py
 ltapysg/traffic.py
 ltapysg.egg-info/PKG-INFO
