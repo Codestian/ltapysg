@@ -2,7 +2,7 @@ from .api import call
 
 # Retrieve arrival timings for all buses operating for specified bus stop. Each bus has 3 recurring timings.
 async def get_bus_arrival(api_key, bus_stop_code):
-    data = await call(api_key, "BusArrivalv2?BusStopCodde=" + bus_stop_code)
+    data = await call(api_key, "BusArrivalv2?BusStopCode=" + bus_stop_code)
     return data["Services"]
 
 
@@ -22,4 +22,3 @@ async def get_bus_routes(api_key):
 async def get_bus_stops(api_key):
     data = await call(api_key, "BusStops")
     return data["value"]
-
