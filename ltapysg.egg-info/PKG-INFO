@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ltapysg
-Version: 0.1.3
+Version: 0.1.4
 Summary: Asynchronous python library to access LTA's Datamall, primarily designed for Home Asssitant.
 Home-page: https://github.com/Codestian/ltapysg
 Author: Muhd Hakim

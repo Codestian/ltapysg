@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ltapysg",
-    version="0.1.3",
+    version="0.1.5",
     author="Muhd Hakim",
     author_email="codestia@gmail.com",
     description="Asynchronous python library to access LTA's Datamall, primarily designed for Home Asssitant.",
