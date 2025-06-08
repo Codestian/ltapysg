@@ -1,6 +1,6 @@
 from aiohttp import ClientSession, ClientConnectorError
 
-BASE_URL = "http://datamall2.mytransport.sg/ltaodataservice/"
+BASE_URL = "https://datamall2.mytransport.sg/ltaodataservice/"
 
 # Base async function to call api, receive response and handle errors.
 async def call(api_key, url):
